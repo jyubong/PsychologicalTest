@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		BF2DEFE72A0B750400509E67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DEFE62A0B750400509E67 /* AppDelegate.swift */; };
 		BF2DEFE92A0B750400509E67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DEFE82A0B750400509E67 /* SceneDelegate.swift */; };
-		BF2DEFEB2A0B750400509E67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DEFEA2A0B750400509E67 /* ViewController.swift */; };
 		BF2DEFEE2A0B750400509E67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2DEFEC2A0B750400509E67 /* Main.storyboard */; };
 		BF2DEFF02A0B750500509E67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2DEFEF2A0B750500509E67 /* Assets.xcassets */; };
 		BF2DEFF32A0B750500509E67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2DEFF12A0B750500509E67 /* LaunchScreen.storyboard */; };
 		BF2DEFFE2A0B750500509E67 /* PsychologicalTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DEFFD2A0B750500509E67 /* PsychologicalTestTests.swift */; };
 		BF2DF0082A0B750500509E67 /* PsychologicalTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF0072A0B750500509E67 /* PsychologicalTestUITests.swift */; };
 		BF2DF00A2A0B750500509E67 /* PsychologicalTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF0092A0B750500509E67 /* PsychologicalTestUITestsLaunchTests.swift */; };
+		BF2DF0172A0B752E00509E67 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF0162A0B752E00509E67 /* HomeViewController.swift */; };
+		BF2DF0192A0B7AAB00509E67 /* QuistionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF0182A0B7AAB00509E67 /* QuistionViewController.swift */; };
+		BF2DF01B2A0B87C100509E67 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */; };
+		BF2DF01D2A0B89EF00509E67 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01C2A0B89EF00509E67 /* Answers.swift */; };
+		BF2DF01F2A0B8D0600509E67 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +43,6 @@
 		BF2DEFE32A0B750400509E67 /* PsychologicalTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PsychologicalTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2DEFE62A0B750400509E67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2DEFE82A0B750400509E67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BF2DEFEA2A0B750400509E67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BF2DEFED2A0B750400509E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF2DEFEF2A0B750500509E67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2DEFF22A0B750500509E67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		BF2DF0032A0B750500509E67 /* PsychologicalTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PsychologicalTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2DF0072A0B750500509E67 /* PsychologicalTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestUITests.swift; sourceTree = "<group>"; };
 		BF2DF0092A0B750500509E67 /* PsychologicalTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PsychologicalTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BF2DF0162A0B752E00509E67 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BF2DF0182A0B7AAB00509E67 /* QuistionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuistionViewController.swift; sourceTree = "<group>"; };
+		BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		BF2DF01C2A0B89EF00509E67 /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
+		BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +109,12 @@
 			children = (
 				BF2DEFE62A0B750400509E67 /* AppDelegate.swift */,
 				BF2DEFE82A0B750400509E67 /* SceneDelegate.swift */,
-				BF2DEFEA2A0B750400509E67 /* ViewController.swift */,
 				BF2DEFEC2A0B750400509E67 /* Main.storyboard */,
+				BF2DF01C2A0B89EF00509E67 /* Answers.swift */,
+				BF2DF0182A0B7AAB00509E67 /* QuistionViewController.swift */,
+				BF2DF0162A0B752E00509E67 /* HomeViewController.swift */,
+				BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */,
+				BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */,
 				BF2DEFEF2A0B750500509E67 /* Assets.xcassets */,
 				BF2DEFF12A0B750500509E67 /* LaunchScreen.storyboard */,
 				BF2DEFF42A0B750500509E67 /* Info.plist */,
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF2DEFEB2A0B750400509E67 /* ViewController.swift in Sources */,
 				BF2DEFE72A0B750400509E67 /* AppDelegate.swift in Sources */,
 				BF2DEFE92A0B750400509E67 /* SceneDelegate.swift in Sources */,
+				BF2DF01B2A0B87C100509E67 /* AnswerViewController.swift in Sources */,
+				BF2DF01D2A0B89EF00509E67 /* Answers.swift in Sources */,
+				BF2DF01F2A0B8D0600509E67 /* AnswerCell.swift in Sources */,
+				BF2DF0192A0B7AAB00509E67 /* QuistionViewController.swift in Sources */,
+				BF2DF0172A0B752E00509E67 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
