@@ -24,6 +24,8 @@ class AnswerViewController: UIViewController {
         configure()
         bind()
         setup()
+        
+        collectionView.delegate = self
     }
     
     private func configure() {
@@ -60,4 +62,14 @@ class AnswerViewController: UIViewController {
         return layout
     }
 
+}
+
+extension AnswerViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let answer = list[indexPath.item]
+        let storyboard = UIStoryboard(name: "AnswerDetail", bundle: nil)
+        guard let vc = storyboard.instantiateViewController(withIdentifier: "AnswerDetailViewController") as? AnswerDetailViewController else { return }
+        vc.answer = answer
+        self.present(vc, animated: true)
+    }
 }

@@ -11,6 +11,9 @@ class QuistionViewController: UIViewController {
 
     @IBOutlet weak var nextPageBtn: UIButton!
     
+    @IBAction func goHome(_ sender: UIStoryboardSegue) {
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()

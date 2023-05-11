@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Answer Detail View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="AnswerDetailViewController" id="Y6W-OH-hqX" customClass="AnswerDetailViewController" customModule="PsychologicalTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Spb-z5-fal">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oYA-zT-l8y">
+                                <rect key="frame" x="121.66666666666669" y="109.33333333333333" width="150" height="150.33333333333331"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="0Ic-fS-6hU"/>
+                                    <constraint firstAttribute="width" constant="150" id="FlM-2W-dcR"/>
+                                </constraints>
+                                <imageReference key="image" image="moon.haze.fill" catalog="system" renderingMode="original"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="수명이 끝나 소멸했다." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KHN-Uh-gAs">
+                                <rect key="frame" x="95.000000000000014" y="309" width="203.33333333333337" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExI-tS-UXj">
+                                <rect key="frame" x="40" y="388" width="313" height="191"/>
+                                <string key="text">당신은 인생에 큰 성공도 없고 큰 어려움도 없는 평범하고 충실한 인생을 보냅니다. 말년에는 귀여운 손자들에게 둘러쌓여 평온한 날을 보내게 될 것입니다. 평범하지만 재미없는 인생이라고는 할 수 없죠! 평범한 것이야말로 가장 행복한 것이라고 하잖아요.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z0f-C7-xCI">
+                                <rect key="frame" x="159" y="708" width="75" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="utG-ZD-qwf"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <segue destination="Y7u-hd-5w5" kind="unwind" unwindAction="goHome:" id="L9H-tl-iSa"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dcC-qs-pMH"/>
+                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                        <constraints>
+                            <constraint firstItem="Z0f-C7-xCI" firstAttribute="centerX" secondItem="dcC-qs-pMH" secondAttribute="centerX" id="25L-Ay-FMl"/>
+                            <constraint firstItem="KHN-Uh-gAs" firstAttribute="top" secondItem="oYA-zT-l8y" secondAttribute="bottom" constant="50" id="7PC-yH-kAM"/>
+                            <constraint firstItem="dcC-qs-pMH" firstAttribute="bottom" secondItem="Z0f-C7-xCI" secondAttribute="bottom" constant="50" id="GyI-ZC-pRt"/>
+                            <constraint firstItem="oYA-zT-l8y" firstAttribute="top" secondItem="dcC-qs-pMH" secondAttribute="top" constant="50" id="V3w-RE-J7f"/>
+                            <constraint firstItem="KHN-Uh-gAs" firstAttribute="centerX" secondItem="dcC-qs-pMH" secondAttribute="centerX" id="a0D-1d-IDH"/>
+                            <constraint firstItem="ExI-tS-UXj" firstAttribute="centerX" secondItem="dcC-qs-pMH" secondAttribute="centerX" id="bKD-uH-OiO"/>
+                            <constraint firstItem="dcC-qs-pMH" firstAttribute="leading" secondItem="ExI-tS-UXj" secondAttribute="leading" constant="-40" id="mpA-zj-Eic"/>
+                            <constraint firstItem="ExI-tS-UXj" firstAttribute="top" secondItem="KHN-Uh-gAs" secondAttribute="bottom" constant="50" id="rKy-uJ-GLZ"/>
+                            <constraint firstItem="oYA-zT-l8y" firstAttribute="centerX" secondItem="dcC-qs-pMH" secondAttribute="centerX" id="tYR-in-LQY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="KHN-Uh-gAs" id="d9L-yL-EMp"/>
+                        <outlet property="descriptionLabel" destination="ExI-tS-UXj" id="kXK-Sx-SiR"/>
+                        <outlet property="homeBtn" destination="Z0f-C7-xCI" id="6VW-tN-LRQ"/>
+                        <outlet property="thumbnailImage" destination="oYA-zT-l8y" id="peb-9S-AJM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="Y7u-hd-5w5" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="4"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="moon.haze.fill" catalog="system" width="128" height="113"/>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

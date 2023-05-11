@@ -20,6 +20,8 @@
 		BF2DF01B2A0B87C100509E67 /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */; };
 		BF2DF01D2A0B89EF00509E67 /* Answers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01C2A0B89EF00509E67 /* Answers.swift */; };
 		BF2DF01F2A0B8D0600509E67 /* AnswerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */; };
+		BFA1033E2A0C6AAE0051460D /* AnswerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFA1033D2A0C6AAE0051460D /* AnswerDetailViewController.swift */; };
+		BFA103422A0C77F60051460D /* AnswerDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFA103412A0C77F60051460D /* AnswerDetail.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
 		BF2DF01C2A0B89EF00509E67 /* Answers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answers.swift; sourceTree = "<group>"; };
 		BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCell.swift; sourceTree = "<group>"; };
+		BFA1033D2A0C6AAE0051460D /* AnswerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerDetailViewController.swift; sourceTree = "<group>"; };
+		BFA103412A0C77F60051460D /* AnswerDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AnswerDetail.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,11 +114,13 @@
 				BF2DEFE62A0B750400509E67 /* AppDelegate.swift */,
 				BF2DEFE82A0B750400509E67 /* SceneDelegate.swift */,
 				BF2DEFEC2A0B750400509E67 /* Main.storyboard */,
+				BFA103412A0C77F60051460D /* AnswerDetail.storyboard */,
 				BF2DF01C2A0B89EF00509E67 /* Answers.swift */,
 				BF2DF0182A0B7AAB00509E67 /* QuistionViewController.swift */,
 				BF2DF0162A0B752E00509E67 /* HomeViewController.swift */,
 				BF2DF01A2A0B87C100509E67 /* AnswerViewController.swift */,
 				BF2DF01E2A0B8D0600509E67 /* AnswerCell.swift */,
+				BFA1033D2A0C6AAE0051460D /* AnswerDetailViewController.swift */,
 				BF2DEFEF2A0B750500509E67 /* Assets.xcassets */,
 				BF2DEFF12A0B750500509E67 /* LaunchScreen.storyboard */,
 				BF2DEFF42A0B750500509E67 /* Info.plist */,
@@ -244,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF2DEFF32A0B750500509E67 /* LaunchScreen.storyboard in Resources */,
+				BFA103422A0C77F60051460D /* AnswerDetail.storyboard in Resources */,
 				BF2DEFF02A0B750500509E67 /* Assets.xcassets in Resources */,
 				BF2DEFEE2A0B750400509E67 /* Main.storyboard in Resources */,
 			);
@@ -272,6 +279,7 @@
 			files = (
 				BF2DEFE72A0B750400509E67 /* AppDelegate.swift in Sources */,
 				BF2DEFE92A0B750400509E67 /* SceneDelegate.swift in Sources */,
+				BFA1033E2A0C6AAE0051460D /* AnswerDetailViewController.swift in Sources */,
 				BF2DF01B2A0B87C100509E67 /* AnswerViewController.swift in Sources */,
 				BF2DF01D2A0B89EF00509E67 /* Answers.swift in Sources */,
 				BF2DF01F2A0B8D0600509E67 /* AnswerCell.swift in Sources */,
